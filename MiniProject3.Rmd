@@ -256,7 +256,8 @@ If you need to copy and paste code 3 times or more it's time to write a function
 You can quickly convert from code like this:
 
 ```{r}
-# age_stat<- adsl_eff %>%
+# 
+#age_stat<- adsl_eff %>%
 #   group_by(TRT01AN,TRT01A,SEX) %>%
 #   summarize(mean = mean( ) %>% round(digits = 1) %>% format(nsmall=1)  ,
 #             sd = sd( ) %>% round(digits = 1) %>% format(nsmall = 1), 
